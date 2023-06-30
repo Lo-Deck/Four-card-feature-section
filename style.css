@@ -100,29 +100,14 @@ main{
     }
 
     article{
-
-
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        /*
-        grid-template-rows: repeat(auto-fit, 1fr);
-        */
         grid-template-rows: repeat(6, 1fr);
-
-
-       /* align-items: center;*/
         justify-content: center;
-        /*
-        margin-inline: auto;
-        */
         column-gap: clamp(1.13rem, calc(-1.87rem + 5.64vw), 2.50rem);
-
         max-width: 77.50rem;
         padding-inline: clamp(1.13rem, calc(-1.87rem + 5.64vw), 2.50rem);
-
-
-        margin: auto;
-        
+        margin: auto;    
     }
 
     .article-title{
@@ -135,50 +120,28 @@ main{
     .article-text{
         grid-column: 4 / 10;      
         grid-row: 2 / 3;
-        /*
-        margin: 0 clamp(2.25rem, calc(1.09rem + 2.18vw), 3.00rem) clamp(2.81rem, calc(0.98rem + 3.45vw), 4.00rem);
-      */
         margin: clamp(1.50rem, calc(0.73rem + 1.45vw), 2.00rem) 0 clamp(2.25rem, calc(1.09rem + 2.18vw), 3.00rem) 0;
-      
-
     }
 
     .supervisor{
         grid-column: 1 / 5;
         grid-row: 4 / 6 ;
-        /*
-        margin-top: clamp(-1.25rem, calc(-0.09rem + -2.18vw), -2.00rem);   
-        */
-    
     }
     
     .team-builder{
         grid-column: 5 / 9;
         grid-row: 3 / 5;
-        /*
-        margin: 0 clamp(2.44rem, calc(1.09rem + 2.55vw), 3.31rem) clamp(1.50rem, calc(0.73rem + 1.45vw), 2.00rem);   
-        */
         margin: 0 0 clamp(1.50rem, calc(0.73rem + 1.45vw), 2.00rem) 0;
     }
     
     .karma{
         grid-column: 5 / 9;
         grid-row: 5 / 7;
-        /*
-        margin: 0 clamp(2.44rem, calc(1.09rem + 2.55vw), 3.31rem) clamp(3.75rem, calc(1.82rem + 3.64vw), 5.00rem);
-        */
-        
     }
     
     .calculator{
         grid-column: 9 / 13;
         grid-row: 4 / 6 ;
-        /*
-        margin-top: clamp(-1.25rem, calc(-0.09rem + -2.18vw), -2.00rem);
-        */
-
-     
-
     }
 
 
@@ -189,23 +152,3 @@ main{
 
 }
 
-
-
-/*
-
-## Colors
-
-### Primary
-
-- Red: hsl(0, 78%, 62%)
-- Cyan: hsl(180, 62%, 55%)
-- Orange: hsl(34, 97%, 64%)
-- Blue: hsl(212, 86%, 64%)
-
-### Neutral
-
-- Very Dark Blue: hsl(234, 12%, 34%) title  
-- Grayish Blue: hsl(229, 6%, 66%) text
-- Very Light Gray: hsl(0, 0%, 98%)  background white
-
-*/
